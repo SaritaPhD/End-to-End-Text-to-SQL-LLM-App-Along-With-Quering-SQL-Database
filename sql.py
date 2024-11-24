@@ -10,7 +10,7 @@ import google.generativeai as genai
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-## Function To Load Google Gemini Model and provide queries as response
+# Function To Load Google Gemini Model and provide queries as response
 
 def get_gemini_response(question,prompt):
     model=genai.GenerativeModel('gemini-pro')
