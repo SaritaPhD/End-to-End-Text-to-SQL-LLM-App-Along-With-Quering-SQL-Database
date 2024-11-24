@@ -30,7 +30,7 @@ def read_sql_query(sql,db):
         print(row)
     return rows
 
-## Define Your Prompt
+#Define Your Prompt
 prompt=[
     """
     You are an expert in converting English questions to SQL query!
